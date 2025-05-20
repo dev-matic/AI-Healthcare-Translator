@@ -194,7 +194,7 @@ export default function Home() {
                 <ClearButton onClick={() => {
                   setInputText("");
                   setTranslatedText("");
-                }} className="px-2 py-1 sm:px-4 sm:py-2 rounded-md bg-slate-800 text-white sm:ml-2 ml-0 text-sm sm:text-base" />
+                }} className="px-2 py-1 sm:px-4 sm:py-2 sm:ml-2 ml-0 text-sm sm:text-base" />
               </div>
             </form>
           </div>
