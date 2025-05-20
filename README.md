@@ -29,7 +29,7 @@ AI Translator is a medical translation web application designed to bridge langua
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/dev-matic/AI-Healthcare-Translator.git
 cd AI Healthcare Translator
 ```
 
