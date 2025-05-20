@@ -1,7 +1,24 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
+const errorHandler = (error) => {
+  console.error("Middleware error:", error);
+};
+
 export default clerkMiddleware({
-  // Optionally, you can add custom logic here if needed
+  async beforeAuth(auth, req) {
+    try {
+      // You can add custom logic here if needed
+    } catch (error) {
+      errorHandler(error);
+      throw error;
+    }
+  },
+  afterAuth(auth, req) {
+    // Optionally add logic after auth
+  },
+  onError(error) {
+    errorHandler(error);
+  },
 });
 
 export const config = {
