@@ -178,7 +178,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="flex flex-row items-center gap-2 h-16 justify-center sm:justify-start overflow-x-auto">
+              <div className="flex flex-row items-center gap-2 h-16 justify-center sm:justify-start">
                 <button
                   type="submit"
                   className="px-2 py-1 sm:px-4 sm:py-2 rounded-md bg-slate-800 text-white text-sm sm:text-base"
