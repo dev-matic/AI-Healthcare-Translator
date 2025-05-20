@@ -30,7 +30,7 @@ AI Translator is a medical translation web application designed to bridge langua
 
 ```bash
 git clone <repository-url>
-cd ai-translator
+cd AI Healthcare Translator
 ```
 
 2. Install dependencies:
